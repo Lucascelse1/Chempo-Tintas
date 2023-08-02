@@ -1,0 +1,1023 @@
+/*Medida para dispositivos moviles*/
+
+@media only screen and (max-width: 660px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-ul {
+    display: none;
+  }
+
+  .nav-btn {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .nav-ul.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style: none;
+    top: 6rem;
+    right: 3rem;
+    background-color: black;
+    font-size: 1.1rem;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .nav-ul.show li {
+    margin: 0.5rem;
+    border-bottom: 1px solid white;
+    padding: 0.5rem;
+  }
+
+  .nav-ul.show li a {
+    color: white;
+    font-family: Russo One;
+  }
+
+  .logo-div {
+    width: max-content;
+  }
+
+  .menu-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    position: relative;
+  }
+
+  .line {
+    background-color: #000;
+    display: block;
+    height: 0.2rem;
+    margin-bottom: 0.5rem;
+    width: 2rem;
+  }
+
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  .menu-btn:hover .line:last-child {
+    margin-bottom: 4px;
+  }
+
+  .logo-div {
+    width: 60%;
+  }
+
+  .logo-header {
+    width: 13rem;
+  }
+
+  .fondo-completo {
+    background-image: url(/styles/imagenes/fondo-sec1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .titulos-sec1 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo {
+    font-family: Russo One;
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    border-bottom: 0.3rem solid red;
+  }
+
+  .subtitulo {
+    font-family: Poppins;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .img-sec1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagen-section1 {
+    width: 70%;
+    height: 16rem;
+  }
+
+  .fondo-sec2 {
+    background: rgb(218, 218, 222);
+  }
+
+  .separador {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .titulo-seccion2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .titulo-seccion2 h1 {
+    font-family: Russo one;
+    text-decoration: underline;
+    font-size: 1.8rem;
+  }
+
+  .texto-seccion2 {
+    font-family: poppins;
+    text-align: start;
+    padding: 1rem;
+  }
+
+  .imagen-utilidad {
+    width: 100%;
+  }
+
+  .imgs-mini {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .normas-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.25rem solid black;
+    border-top: 0.25rem solid black;
+    width: 100%;
+  }
+
+
+  .div-img-normas {
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-texto-normas {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .imgs-normas {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .titulo-container-normas {
+    text-align: center;
+    width: 100%;
+  }
+
+  .titulo-normas {
+    font-family: Russo One;
+    width: 100%;
+    font-size: 2rem;
+  }
+
+
+  .fondo-sec3 {
+    width: 100%;
+    background-image: url(/styles/imagenes/limpiadores_2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .modo-uso {
+    width: 100%;
+  }
+
+  .modo-uso h1 {
+    font-family: russo one;
+    padding: 0.5rem;
+  }
+
+  .subtitulo-seccion3 {
+    width: 100%;
+  }
+
+  .subtitulo-seccion3 h4 {
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .container-pasos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .paso {
+    display: flex;
+  }
+
+  .imgs-pasos {
+    width: 50%;
+    margin-left: 3rem;
+  }
+
+  .p-img-container{
+    width: 68%;
+  }
+
+  .paso-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+  }
+
+  .paso-parrafo p {
+    font-size: 0.8rem;
+    font-family: poppins;
+  }
+
+  .aerosol-container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .aerosol {
+    width: 100%;
+    height: 60%;
+  }
+
+  .inspeccion {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .inspeccion-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .imgs-pasos-inspeccion {
+    width: 54%;
+    height: 8rem;
+  }
+
+  .inspeccion-parrafo {
+    font-family: poppins;
+    font-size: 0.85rem;
+  }
+
+  .subseccion2 {
+    margin-top: 1.5rem;
+  }
+
+  .logos-info {
+    border-top: 0.25rem solid black;
+  }
+
+  .div-tarjeta {
+    margin-top: 1rem;
+  }
+
+  .div-titulo1 {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.6rem;
+  }
+
+  .imagen-titulo-form {
+    display: none;
+  }
+
+  .titulo-form-div {
+    width: 100%;
+  }
+
+  .titulo-form h1{
+    font-family: Russo one;
+    font-size: 2.2rem;
+    text-decoration: underline;
+  }
+
+  .div-subtitulo h4 {
+    font-size: 1.2rem;
+  }
+
+
+  .form {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-image: url(/styles/imagenes/93193.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0);
+  }
+
+  .form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-submit {
+    background-color: transparent;
+    border: 0.125rem solid #000000;
+    color: #000000;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    width: 10rem;
+  }
+
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 80%;
+  }
+
+  .logo-footer {
+    width: 100%;
+  }
+
+  .boton-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+  .logo-footer {
+    width: 1.8rem;
+    height: 1.6rem;
+    position: absolute;
+    margin-left: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .mundo-footer {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .footer-logo {
+    width: 19rem;
+    height: 12.5rem;
+  }
+}
+
+/*Medida para escritorio*/
+
+
+
+
+@media only screen and (min-width: 660px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+
+  .contenedor {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .fondo-completo {
+    background-image: url(/styles/imagenes/fondo-sec1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84.2vh;
+  }
+
+  .nav-bar {
+    display: flex;
+    margin: 0rem 1.125rem;
+    padding: 0rem 0.938rem;
+  }
+
+  .menu-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .logo-header {
+    width: 14.5rem;
+    height: 9.25rem;
+    margin-left: 9rem;
+  }
+
+  .nav-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .nav-ul li a {
+    margin: 0rem 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(1, 1, 1);
+  }
+
+  .items-sec1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 6.25rem;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+
+  .titulos-sec1 {
+    padding: 1.25rem;
+    margin-top: 5rem;
+  }
+
+  .titulo {
+    width: 100%;
+    font-family: Russo One;
+    color: white;
+    border-bottom: 0.25rem solid red;
+    font-size: 4.5rem;
+  }
+
+  .subtitulo {
+    font-family: Poppins;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .img-sec1{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+  }
+
+  .imagen-section1 {
+    width: 100%;
+    height: 90%;
+  }
+
+  /* seccion 2 */
+
+  #seccion2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-2 {
+    background-color: #ffff;
+  }
+
+  .fondo-sec2 {
+    width: 80%;
+    background-color: rgb(218, 218, 222);
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  .separador {
+    height: 9rem;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .titulo-seccion2 {
+    font-family: Russo One;
+    border-bottom: 0.25rem solid gray;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .titulo-seccion2 h1 {
+    text-align: left;
+    font-size: 3rem;
+  }
+
+  .texto-seccion2 {
+    display: flex;
+    font-family: poppins;
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+  .texto-seccion2 div {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+  }
+
+  .texto-seccion2 div p {
+    width: 80%;
+    text-align: justify;
+  }
+
+  .imagen-utilidad {
+    width: 100%;
+    height: 25rem;
+    transition: all 300ms;
+    position: relative;
+    margin-right: 3rem;
+  }
+
+  .imagen-utilidad:hover {
+    transform: scale(1.15);
+  }
+
+  .fix {
+    height: 14rem;
+  }
+
+  .mini-container {
+    display: flex;
+    margin-top: 8.125rem;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .mini-container img {
+    transition: all 300ms;
+    width: 100%;
+    height: 9rem;
+  }
+
+
+  .mini-container img:hover {
+    transform: scale(1.15);
+  }
+
+  .imgs-mini {
+    width: 12.5rem;
+    height: 6.25rem;
+  }
+
+  /* subseccion */
+  #sub-seccion {
+    margin-top: 2rem;
+  }
+
+  .normas-container {
+    width: 100%;
+    border-bottom: 0.25rem solid black;
+    border-top: 0.25rem solid black;
+  }
+
+  .logos-info {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 0.25rem solid black;
+  }
+
+  .subseccion2 {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    margin-top: 2rem;
+  }
+
+  .imgs-normas {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .titulo-normas {
+    font-family: Russo one;
+    padding: 1rem;
+    width: max-content;
+    position: relative;
+    left: 9%;
+  }
+
+  .normas-container{
+    width: 100%;
+  }
+
+
+  .parrafo-normas {
+    width: 70%;
+    padding: 1rem;
+    position: relative;
+    left: 9%;
+  }
+
+  .div-img-normas {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .div-tarjeta {
+    margin: 1rem 3rem 1rem 3rem;
+    width: 15%;
+  }
+
+  .div-texto-normas {
+    text-align: center;
+  }
+
+  /* seccion 3 */
+
+  #seccion3 {
+    margin-top: 1.875rem;
+  }
+
+  .fondo-sec3 {
+    width: 80%;
+    background-image: url(/styles/imagenes/limpiadores_2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .modo-uso {
+    font-family: Russo One;
+    border-bottom: 0.25rem solid gray;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .modo-uso h1 {
+    text-align: right;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .subtitulo-seccion3 {
+    font-family: poppins;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+  }
+
+  .subtitulo-seccion3 h4 {
+    text-align: right;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .container-pasos{
+    width: 100%;
+  }
+
+  .columna-pasos {
+    display: flex;
+  }
+
+  .paso {
+    display: flex;
+    width: 50%;
+  }
+
+  .paso-img{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .paso-img strong {
+    font-size: 1.9rem;
+    font-family: poppins;
+  }
+
+  .paso-parrafo {
+    width: 100%;
+  }
+
+  .paso-parrafo p {
+    width: 90%;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .aerosol-container{
+    display: flex;
+    align-items: center;
+  }
+  .aerosol{
+    height: 12rem;
+    width: 9rem;
+    
+  }
+  .imgs-pasos {
+    height: 13rem;
+    width: 13rem;
+  }
+
+  .imgs-pasos-inspeccion {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .inspeccion{
+    width: 50%;
+    position: relative;
+    left: 7rem;
+    padding: 2rem;
+  }
+
+  .inspeccion-img {
+    display: flex;
+    align-items: center;
+  }
+  
+  .inspeccion-img strong {
+    font-size: 1.9rem;
+    font-family: poppins;
+  }
+
+  .inspeccion-img img {
+    margin-left: 6rem;
+  }
+
+  .inspeccion-parrafo{
+    width: 100%;
+  }
+
+  .inspeccion-parrafo p {
+    width: 90%;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  /*Subseccion2*/
+
+  .subseccion2 {
+    margin-bottom: 2rem;
+  }
+
+
+
+  /* seccion 4 */
+
+  .form-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4rem;
+  }
+
+  .form-container form div {
+    margin: 0.5rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    width: 35%;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0);
+    text-align: center;
+    background-image: url(/styles/imagenes/93193.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .div-titulo1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .titulo-form-div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .titulo-form {
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+
+  .titulo-form h1 {
+    font-family: Russo one;
+    text-decoration: underline;
+    font-size: 3rem;
+  }
+
+  .imagen-titulo-form {
+    position: relative;
+    right: 30rem;
+  }
+  
+  .div-subtitulo {
+    display: flex;
+    justify-content: center;
+    top: -10px;
+  }
+
+  .div-subtitulo h4 {
+    font-family: poppins;
+    width: 40.6%;
+    text-align: center;
+    font-size: 1.2rem;
+    
+  }
+
+  .img-form {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .check-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-container {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .form-group {
+    position: relative;
+    --color: #5757577e;
+  }
+
+  .input {
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: 0.6em 0.3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+  }
+
+  .input:hover {
+    border-color: blue;
+  }
+
+  .input:focus {
+    box-shadow: 0 0 5px black;
+  }
+
+  .btn-submit {
+    transition: transform 0.3s ease;
+  }
+
+  .btn-submit:hover {
+    transform: scale(1.1);
+  }
+
+  .checkbox input:checked + label {
+    font-weight: bold;
+  }
+
+  .label {
+    display: flex;
+    font-size: 1.2rem;
+    font-family: Arial;
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+
+  .checkbox label,
+  input {
+    padding: 1rem;
+  }
+
+  .titulo-checkbox {
+    font-size: 1.2rem;
+  }
+
+  .btn-submit {
+    background-color: transparent;
+    border: 0.125rem solid #000000;
+    color: #000000;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    width: 10rem;
+  }
+
+  .boton-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+
+  footer {
+    background: rgb(240, 243, 239);
+    color: black;
+    width: 100%;
+  }
+
+  .logo-footer {
+    width: 1.8rem;
+    height: 1.6rem;
+    position: absolute;
+    margin-left: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .colunma-12 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-footer {
+    color: #000000;
+  }
+
+  .mundo-footer {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer-logo {
+    width: 14.5rem;
+    height: 9.25rem;
+    display: flex;
+    justify-content: center;
+  }
+
+}
